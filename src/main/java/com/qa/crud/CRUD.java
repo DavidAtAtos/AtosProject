@@ -15,7 +15,7 @@ public class CRUD {
 	
 	private Connection conn;// has a driver manager class which contains the methods to connect to db
 	private Statement stmt;// allows us to prepare the query we want to execute
-	private ResultSet rs; // Crucial for when returning multiple rows from a database table
+	public ResultSet rs; // Crucial for when returning multiple rows from a database table
 
 	// open connection in the constructor - initialises everything
 	public CRUD() {

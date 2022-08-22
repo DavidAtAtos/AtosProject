@@ -1,4 +1,4 @@
-package com.qa.crud;
+ package com.qa.crud;
 import java.util.Scanner;
 //import com.qa.crud.CRUD;
 import com.qa.amazon.Person;
