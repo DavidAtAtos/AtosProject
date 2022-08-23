@@ -11,18 +11,7 @@ When correct input has been inputed you might be asked for some input about what
 
 With over 60% COVERAGE TESTED I've completed testing my person class as well as part of the Crud testing just need to test Exception:
 
-'''bash
+```bash
 Error: Bad Query
 '''
-```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
