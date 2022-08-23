@@ -43,7 +43,7 @@ public class Query {
 						System.out.println("Enter postcode: ");
 						String postcode = sc.nextLine();
 						System.out.println("Enter mobile: ");
-						long mobile = sc.nextInt();
+						long mobile = sc.nextLong();
 						sc.nextLine();
 						q.create(new Person(name, postcode, age, mobile));
 						break;
@@ -65,7 +65,7 @@ public class Query {
 						int uid = sc.nextInt();
 						sc.nextLine();//capture enter key
 						System.out.println("Enter the new model of the vehicle: ");
-						String number = sc.nextLine();
+						long number = sc.nextLong();
 						p.setId(uid);
 						q.update(p, number);					
 						break;

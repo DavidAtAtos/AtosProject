@@ -39,8 +39,8 @@ public class CRUD {
 
 			// INSERT INTO vehicle(model, mileage, vehicle_type, doors)
 			// VALUES("tbc",30000,"Car",4);
-			String createStmt = "INSERT INTO person(full_name, postcode, age, mobile) VALUES('" + p.getName() + "'," + p.getPostcode()
-					+ ",'" + p.getAge() + "'," + p.getMobile() + ");";
+			String createStmt = "INSERT INTO person(full_name, postcode, age, mobile) VALUES('" + p.getName() + "','" + p.getPostcode()
+					+ "'," + p.getAge() + "," + p.getMobile() + ");";
 			try {
 				stmt.executeUpdate(createStmt);
 				System.out.println("Create statement executed");
@@ -96,9 +96,9 @@ public class CRUD {
 		}
 
 	}
-	public void update(Person p, String updateVal) {
+public void update(Person p, long updateVal) {
 //		UPDATE vehicle SET model = "chevy" WHERE id = 2;
-		String updateStmt = "UPDATE vehicle SET mobile = '" + updateVal + "' WHERE id = " + p.getId() + ";";
+		String updateStmt = "UPDATE vehicle SET mobile = " + updateVal + " WHERE id = " + p.getId() + ";";
 		try {
 			stmt.executeUpdate(updateStmt);
 			System.out.println("Update statement executed");

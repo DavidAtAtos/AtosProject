@@ -3,6 +3,7 @@ import com.qa.DBConfig.Configure;
 import com.qa.amazon.Person;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
 
 import java.sql.Connection;
@@ -25,10 +26,11 @@ public class CRUDTest {
 	String name = "Tommy Jones";
 	String ps = "E8 4QB";
 	int age = 32;
-	long m = 779;
-	int id = 4;
+	long m = 779456435;
+	
 	
 	Person p = new Person(name,ps,age,m);
+	Person q = new Person("Johny","E8 4QB",16,77896532);
 	
 	private Statement stmt;
 	 Connection conn;
@@ -54,13 +56,17 @@ public class CRUDTest {
 	
 	@Test
 	public void createTest() {
-		p.setId(4);
+		//p.setId(4);
 		c.create(p);
 		assertEquals(name,p.getName());
 		assertEquals(ps,p.getPostcode());
 		 
-		
-	}
+		}
+	
+	//@Test
+	//public void throwcreateexception() {
+		//SQLException dummyexe = assertThrows(SQLException.class,() -> q.(-1));
+			
 	
 
 	@Test
@@ -85,9 +91,23 @@ public class CRUDTest {
 		
 		//assertTrue(rs.next());
 		//assertEquals("David Olaribigbe",rs.getString("full_name"));
+}
+	@Test
+	public void readTest() {
+		c.read();
 		
 	}
 	
+	@Test
+	public void updateTest() {
+		c.update(p, 445643276);
+		
+	}
+	@Test
+	public void deleteTest() {
+		c.delete(p);
+		
+	}
 	
 		
 	}
