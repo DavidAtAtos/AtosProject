@@ -14,3 +14,15 @@ With over 60% COVERAGE TESTED I've completed testing my person class as well as 
 '''bash
 Error: Bad Query
 '''
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
