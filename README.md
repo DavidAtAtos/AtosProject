@@ -13,5 +13,5 @@ With over 60% COVERAGE TESTED I've completed testing my person class as well as 
 
 ```bash
 Error: Bad Query
-'''
+```
 
