@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # How to use my project
 
 First by clicking run , the console will ask what query you want either Create , Read , Update or Delete
@@ -37,3 +38,6 @@ These are images of my boared , the issues ive added as well as the progress wit
 
 ![image](https://user-images.githubusercontent.com/110388242/186402876-82c6c614-6c64-4fc6-8f8e-324e0391def3.png)
 
+=======
+# AtosProject
+>>>>>>> main
