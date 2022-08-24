@@ -14,4 +14,10 @@ With over 60% COVERAGE TESTED I've completed testing my person class as well as 
 ```bash
 Error: Bad Query
 ```
+### Jira Software
+These are images of my boared , the issues ive added as well as the progress within (what needs to be done what has been done succesfully and what is in the progress of doing.
 
+![image](https://user-images.githubusercontent.com/110388242/186400798-5d2248a2-8cc6-4032-98d0-6bf6dd039e08.png)
+
+
+![image](https://user-images.githubusercontent.com/110388242/186400982-98dfa966-db3e-42ca-921e-7c9bd72f1119.png)
