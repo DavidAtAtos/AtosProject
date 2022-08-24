@@ -17,7 +17,23 @@ Error: Bad Query
 ### Jira Software
 These are images of my boared , the issues ive added as well as the progress within (what needs to be done what has been done succesfully and what is in the progress of doing.
 
-![image](https://user-images.githubusercontent.com/110388242/186400798-5d2248a2-8cc6-4032-98d0-6bf6dd039e08.png)
+![image](https://user-images.githubusercontent.com/110388242/186402253-f9131962-a211-437b-95ff-80618e2c0d69.png)
 
 
-![image](https://user-images.githubusercontent.com/110388242/186400982-98dfa966-db3e-42ca-921e-7c9bd72f1119.png)
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/110388242/186402450-43aae75a-f0ec-413d-a0f2-ef5ba78e104e.png)
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/110388242/186402876-82c6c614-6c64-4fc6-8f8e-324e0391def3.png)
+
