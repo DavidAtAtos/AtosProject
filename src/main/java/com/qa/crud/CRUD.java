@@ -98,7 +98,7 @@ public class CRUD {
 	}
 public void update(Person p, long updateVal) {
 //		UPDATE vehicle SET model = "chevy" WHERE id = 2;
-		String updateStmt = "UPDATE vehicle SET mobile = " + updateVal + " WHERE id = " + p.getId() + ";";
+		String updateStmt = "UPDATE person SET mobile = " + updateVal + " WHERE id = " + p.getId() + ";";
 		try {
 			stmt.executeUpdate(updateStmt);
 			System.out.println("Update statement executed");
@@ -109,6 +109,7 @@ public void update(Person p, long updateVal) {
 		}
 
 	}
+
 	
 	public void closeConn() {
 		try {

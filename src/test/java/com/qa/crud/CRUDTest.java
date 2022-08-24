@@ -87,10 +87,6 @@ public class CRUDTest {
 		
 		}
 
-		
-		
-		//assertTrue(rs.next());
-		//assertEquals("David Olaribigbe",rs.getString("full_name"));
 }
 	@Test
 	public void readTest() {
@@ -103,11 +99,16 @@ public class CRUDTest {
 		c.update(p, 445643276);
 		
 	}
+	
 	@Test
 	public void deleteTest() {
 		c.delete(p);
-		
+	
 	}
+	
+
+	
+	
 	
 		
 	}
